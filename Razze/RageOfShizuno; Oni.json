@@ -1,22 +1,22 @@
 {
 	"_meta": {
-		"sources": [
-			{
-				"json": "Oni",
-				"abbreviation": "Oni",
-				"full": "Oni",
-				"authors": [
-					"Lix#3560"
-				],
-				"convertedBy": [
-					"RageOfShizuno#8673"
-				],
-				"version": "2"
-				"color": "1e1d39",
-				"url": "https://docs.google.com/document/d/1pHG6MWS18AZcmvZRxOBFOFwu5LWDpbM0Yc1dlyLE37o/edit?usp=share_link",
-				"targetSchema": "1.0.0"
-			}
-		]
+		"sources": [{
+			"json": "Oni",
+			"abbreviation": "Oni",
+			"full": "Oni",
+			"authors": [
+				"Lix#3560"
+			],
+			"convertedBy": [
+				"RageOfShizuno#8673"
+			],
+			"version": "2",
+			"color": "1e1d39",
+			"url": "https://docs.google.com/document/d/1pHG6MWS18AZcmvZRxOBFOFwu5LWDpbM0Yc1dlyLE37o/edit?usp=share_link",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1683621115,
+		"dateLastModified": 1683621115
 	},
 
 	"name": "Oni",
@@ -29,32 +29,56 @@
 		"max": 300
 	},
 	"darkvision": 60,
-	"additionalSpells": [
-		{
-			"innate": {
-				"1": {
-					"daily": {
-						"1": [
-							"disguise self"
-						]
-					}
+	"additionalSpells": [{
+		"innate": {
+			"1": {
+				"daily": {
+					"1": [
+						"disguise self"
+					]
 				}
-			},
-			"ability": {
-				"choose": [
-					"int",
-					"wis",
-					"cha"
-				]
-			},
-			"known": {
-				"1": [
-					"disguise self"
-				]
 			}
+		},
+		"ability": {
+			"choose": [
+				"int",
+				"wis",
+				"cha"
+			]
+		},
+		"known": {
+			"1": [
+				"disguise self"
+			]
 		}
-	],
-	"entries": [
+	}],
+	"entries": [{
+			"type": "entries",
+			"name": "Caratteristiche",
+			"entries": [
+				"Scegli uno tra: ",
+				{
+					"type": "list",
+					"items": [{
+							"type": "item",
+							"name": "{@bold (a)}",
+							"entry": "Scegli un qualsiasi +2; scegli un qualsiasi altro +1."
+						},
+						{
+							"type": "item",
+							"name": "{@bold (b)}",
+							"entry": "Scegli tre diversi +1."
+						},
+						{
+							"type": "item",
+							"name": "{@bold (c)}",
+							"entry": "Scegli un qualsiasi +1; scegli un talento."
+						}
+					],
+					"style": "list-hang-notitle"
+				}
+			]
+		},
 		{
 			"type": "entries",
 			"name": "Taglia",
@@ -80,7 +104,7 @@
 			"type": "entries",
 			"name": "Magia Innata",
 			"entries": [
-				"Una volta per riposo lungo puoi castare su te stesso {@spell disguise self}, una volta utilizzata questa abilità puoi lanciare l’incantesimo utilizzando uno spell slot del livello adatto.", 
+				"Una volta per riposo lungo puoi castare su te stesso {@spell disguise self}, una volta utilizzata questa abilità puoi lanciare l’incantesimo utilizzando uno spell slot del livello adatto.",
 				"La caratteristica per il lancio della magie è Intelligenza, Saggezza o Carisma. (Scelta quanto viene presa la razza)."
 			]
 		},
@@ -91,8 +115,7 @@
 				"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
 				{
 					"type": "list",
-					"items": [
-						{
+					"items": [{
 							"type": "item",
 							"name": "Oni Blu",
 							"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
@@ -122,8 +145,7 @@
 	],
 	"hasFluff": true,
 	"hasFluffImages": true,
-	"_versions": [
-		{
+	"_versions": [{
 			"name": "Oni; Oni Blu",
 			"source": "Scintille Celesti",
 			"_mod": {
@@ -178,8 +200,7 @@
 			}
 		}
 	],
-	"ability": [
-		{
+	"ability": [{
 			"choose": {
 				"weighted": {
 					"from": [
@@ -217,10 +238,8 @@
 			}
 		}
 	],
-	"languageProficiencies": [
-		{
-			"common": true,
-			"anyStandard": 1
-		}
-	]
+	"languageProficiencies": [{
+		"common": true,
+		"anyStandard": 1
+	}]
 }
