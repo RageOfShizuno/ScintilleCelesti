@@ -94,33 +94,7 @@
 											]
 										}
 									}],
-									"entries": [{
-											"type": "entries",
-											"name": "Caratteristiche",
-											"entries": [
-												"Scegli uno tra: ",
-												{
-													"type": "list",
-													"items": [{
-															"type": "item",
-															"name": "{@bold (a)}",
-															"entry": "Scegli un qualsiasi +2; scegli un qualsiasi altro +1."
-														},
-														{
-															"type": "item",
-															"name": "{@bold (b)}",
-															"entry": "Scegli tre diversi +1."
-														},
-														{
-															"type": "item",
-															"name": "{@bold (c)}",
-															"entry": "Scegli un qualsiasi +1; scegli un talento."
-														}
-													],
-													"style": "list-hang-notitle"
-												}
-											]
-										},
+									"entries": [
 										{
 											"type": "entries",
 											"name": "Taglia",
