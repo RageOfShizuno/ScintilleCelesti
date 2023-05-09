@@ -57,32 +57,8 @@
 									]
 								}
 							}
-						},
-						{
-							"choose": {
-								"weighted": {
-									"from": [
-										"str",
-										"dex",
-										"con",
-										"int",
-										"wis",
-										"cha"
-									],
-									"weights": [
-										1
-									],
-                                				  "choose":{
-									"feats": [{
-											"any": 1
-										}
-                                      
-									]
-                	                			}
-                        	    				}
-                        				}
-			                      }
-                  ],
+						}
+					],
 									"size": [
 										"M"
 									],
