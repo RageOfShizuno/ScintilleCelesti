@@ -1,4 +1,21 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "Oni",
+				"abbreviation": "Oni",
+				"full": "Oni",
+				"authors": [
+					"Lix#3560"
+				],
+				"convertedBy": [
+					"RageOfShizuno#8673"
+				],
+				"version": "2"
+			}
+		]
+	},
+
 	"name": "Oni",
 	"source": "Scintille Celesti",
 	"size": [
