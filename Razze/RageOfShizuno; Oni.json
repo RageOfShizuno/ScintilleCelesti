@@ -134,17 +134,17 @@
 													"items": [{
 															"type": "item",
 															"name": "Oni Blu",
-															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
+															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono {@dice 1d6} più il modificatore di forza. Durante la tua trasformazione aggiungi {@dice 1d4} danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
 														},
 														{
 															"type": "item",
 															"name": "Oni Rosso",
-															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono 1d6 più il modificatore di destrezza. Durante la tua trasformazione aggiungi 1d4 danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
+															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono {@dice 1d6} più il modificatore di destrezza. Durante la tua trasformazione aggiungi {@dice 1d4} danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
 														},
 														{
 															"type": "item",
 															"name": "Oni Bianco",
-															"entry": "Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi 1d4 danni da fulmine"
+															"entry": "Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi {@dice 1d4} danni da fulmine"
 														}
 													],
 													"style": "list-hang-notitle"
