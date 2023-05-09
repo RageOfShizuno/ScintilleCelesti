@@ -21,7 +21,7 @@
 "race": [
   {
 	"name": "Oni",
-	"source": "Scintille Celesti",
+	"source": "Scintille",
 	"ability": [
         {
 			"choose": {
@@ -193,8 +193,8 @@
 	"hasFluff": true,
 	"hasFluffImages": true,
 	"_versions": [{
-			"name": "Oni; Oni Blu",
-			"source": "Scintille Celesti",
+			"name": "Oni; Blu",
+			"source": "Scintille",
 			"_mod": {
 				"entries": {
 					"mode": "replaceArr",
@@ -211,8 +211,8 @@
 			}
 		},
 		{
-			"name": "Oni; Oni Rosso",
-			"source": "Scintille Celesti",
+			"name": "Oni; Rosso",
+			"source": "Scintille",
 			"_mod": {
 				"entries": {
 					"mode": "replaceArr",
@@ -229,8 +229,8 @@
 			}
 		},
 		{
-			"name": "Oni; Oni Bianco",
-			"source": "Scintille Celesti",
+			"name": "Oni; Bianco",
+			"source": "Scintille",
 			"_mod": {
 				"entries": {
 					"mode": "replaceArr",
