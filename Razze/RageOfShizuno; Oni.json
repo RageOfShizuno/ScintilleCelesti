@@ -19,251 +19,253 @@
 		"dateLastModified": 1683621115
 	},
 	"race": [{
-		"name": "Oni",
-		"source": "Scintille",
-		"ability": [{
-				"choose": {
-					"weighted": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"weights": [
-							2,
-							1
-						]
-					}
-				}
-			},
-			{
-				"choose": {
-					"weighted": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"weights": [
-							1,
-							1,
-							1
-						]
-					}
-				}
-			},
-			{
-				"choose": {
-					"weighted": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"weights": [
-							1
-						],
-						"feats": [{
-								"any": 1
-							}
-
-						]
-					}
-				}
-			}
-		],
-		"size": [
-			"M"
-		],
-		"speed": 30,
-		"darkvision": 60,
-		"age": {
-			"max": 300
-		},
-		"languageProficiencies": [{
-			"common": true,
-			"anyStandard": 1
-		}],
-		"additionalSpells": [{
-			"innate": {
-				"1": {
-					"daily": {
-						"1": [
-							"disguise self"
-						]
-					}
-				}
-			},
-			"ability": {
-				"choose": [
-					"int",
-					"wis",
-					"cha"
-				]
-			},
-			"known": {
-				"1": [
-					"disguise self"
-				]
-			}
-		}],
-		"entries": [{
-				"type": "entries",
-				"name": "Caratteristiche",
-				"entries": [
-					"Scegli uno tra: ",
-					{
-						"type": "list",
-						"items": [{
-								"type": "item",
-								"name": "{@bold (a)}",
-								"entry": "Scegli un qualsiasi +2; scegli un qualsiasi altro +1."
-							},
-							{
-								"type": "item",
-								"name": "{@bold (b)}",
-								"entry": "Scegli tre diversi +1."
-							},
-							{
-								"type": "item",
-								"name": "{@bold (c)}",
-								"entry": "Scegli un qualsiasi +1; scegli un talento."
-							}
-						],
-						"style": "list-hang-notitle"
-					}
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Taglia",
-				"entries": [
-					"In piena età adulta gli Oni possono variare dai 168 cm fino a 270 cm, con gli  Oni rossi che tendono ad essere più alti rispetto ai loro parenti blu e bianchi. Sei di taglia Media."
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Scurovisione",
-				"entries": [
-					"Come ogni creatura della notte, ti sei adattato a vedere al buio. Puoi vedere in  penombra entro 60 feet da te come se fosse luce intensa e nell'oscurità come  se fosse luce fioca. Non puoi distinguere il colore nell'oscurità, solo le  sfumature di grigio."
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Allineamento",
-				"entries": [
-					"Gli Oni tendono ad un comportamento caotico, facendo ciò che è più divertente  o comodo al momento per loro, questo tuttavia non è uno stampo in cui tutti  gli Oni si adattano, poiché molti clan hanno il proprio insieme di morali e leggi  che aiutano a regolare la propria struttura interna."
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Magia Innata",
-				"entries": [
-					"Una volta per riposo lungo puoi castare su te stesso {@spell disguise self}, una volta utilizzata questa abilità puoi lanciare l’incantesimo utilizzando uno spell slot del livello adatto.",
-					"La caratteristica per il lancio della magie è Intelligenza, Saggezza o Carisma. (Scelta quanto viene presa la razza)."
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Trasformazione",
-				"entries": [
-					"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
-					{
-						"type": "list",
-						"items": [{
-								"type": "item",
-								"name": "Oni Blu",
-								"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
-							},
-							{
-								"type": "item",
-								"name": "Oni Rosso",
-								"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono 1d6 più il modificatore di destrezza. Durante la tua trasformazione aggiungi 1d4 danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
-							},
-							{
-								"type": "item",
-								"name": "Oni Bianco",
-								"entry": "Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi 1d4 danni da fulmine"
-							}
-						],
-						"style": "list-hang-notitle"
-					}
-				]
-			},
-			{
-				"type": "entries",
-				"name": "Lingue",
-				"entries": [
-					"Puoi parlare, leggere e scrivere Comune e un’altra lingua che tu e il tuo DM decidete sia adatta al tuo personaggio."
-				]
-			}
-		],
-		"hasFluff": true,
-		"hasFluffImages": true,
-		"_versions": [{
-				"name": "Oni; Blu",
+				"name": "Oni",
 				"source": "Scintille",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Trasformazione",
-						"items": {
-							"name": "Trasformazione (Oni Blu)",
-							"type": "entries",
-							"entries": [
-								"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
-								"Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
-							]
-						}
-					}
-				}
-			},
-			{
-				"name": "Oni; Rosso",
-				"source": "Scintille",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Trasformazione",
-						"items": {
-							"name": "Trasformazione (Oni Rosso)",
-							"type": "entries",
-							"entries": [
-								"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
-								"Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono 1d6 più il modificatore di destrezza. Durante la tua trasformazione aggiungi 1d4 danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
-							]
-						}
-					}
-				}
-			},
-			{
-				"name": "Oni; Bianco",
-				"source": "Scintille",
-				"_mod": {
-					"entries": {
-						"mode": "replaceArr",
-						"replace": "Trasformazione",
-						"items": {
-							"name": "Trasformazione (Oni Bianco)",
-							"type": "entries",
-							"entries": [
-								"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
-								"Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi 1d4 danni da fulmine."
-							]
-						}
-					}
-				}
-			}
-		]
-	}
-]
-}
+				"ability": [{
+							"choose": {
+								"weighted": {
+									"from": [
+										"str",
+										"dex",
+										"con",
+										"int",
+										"wis",
+										"cha"
+									],
+									"weights": [
+										2,
+										1
+									]
+								}
+							}
+						},
+						{
+							"choose": {
+								"weighted": {
+									"from": [
+										"str",
+										"dex",
+										"con",
+										"int",
+										"wis",
+										"cha"
+									],
+									"weights": [
+										1,
+										1,
+										1
+									]
+								}
+							}
+						},
+						{
+							"choose": {
+								"weighted": {
+									"from": [
+										"str",
+										"dex",
+										"con",
+										"int",
+										"wis",
+										"cha"
+									],
+									"weights": [
+										1
+									],
+                                				  "choose":{
+									"feats": [{
+											"any": 1
+										}
+                                      
+									]
+                	                			}
+                        	    				}
+                        				}
+			                      }
+                  ],
+									"size": [
+										"M"
+									],
+									"speed": 30,
+									"darkvision": 60,
+									"age": {
+										"max": 300
+									},
+									"languageProficiencies": [{
+										"common": true,
+										"anyStandard": 1
+									}],
+									"additionalSpells": [{
+										"innate": {
+											"1": {
+												"daily": {
+													"1": [
+														"disguise self"
+													]
+												}
+											}
+										},
+										"ability": {
+											"choose": [
+												"int",
+												"wis",
+												"cha"
+											]
+										},
+										"known": {
+											"1": [
+												"disguise self"
+											]
+										}
+									}],
+									"entries": [{
+											"type": "entries",
+											"name": "Caratteristiche",
+											"entries": [
+												"Scegli uno tra: ",
+												{
+													"type": "list",
+													"items": [{
+															"type": "item",
+															"name": "{@bold (a)}",
+															"entry": "Scegli un qualsiasi +2; scegli un qualsiasi altro +1."
+														},
+														{
+															"type": "item",
+															"name": "{@bold (b)}",
+															"entry": "Scegli tre diversi +1."
+														},
+														{
+															"type": "item",
+															"name": "{@bold (c)}",
+															"entry": "Scegli un qualsiasi +1; scegli un talento."
+														}
+													],
+													"style": "list-hang-notitle"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Taglia",
+											"entries": [
+												"In piena età adulta gli Oni possono variare dai 168 cm fino a 270 cm, con gli  Oni rossi che tendono ad essere più alti rispetto ai loro parenti blu e bianchi. Sei di taglia Media."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Scurovisione",
+											"entries": [
+												"Come ogni creatura della notte, ti sei adattato a vedere al buio. Puoi vedere in  penombra entro 60 feet da te come se fosse luce intensa e nell'oscurità come  se fosse luce fioca. Non puoi distinguere il colore nell'oscurità, solo le  sfumature di grigio."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Allineamento",
+											"entries": [
+												"Gli Oni tendono ad un comportamento caotico, facendo ciò che è più divertente  o comodo al momento per loro, questo tuttavia non è uno stampo in cui tutti  gli Oni si adattano, poiché molti clan hanno il proprio insieme di morali e leggi  che aiutano a regolare la propria struttura interna."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Magia Innata",
+											"entries": [
+												"Una volta per riposo lungo puoi castare su te stesso {@spell disguise self}, una volta utilizzata questa abilità puoi lanciare l’incantesimo utilizzando uno spell slot del livello adatto.",
+												"La caratteristica per il lancio della magie è Intelligenza, Saggezza o Carisma. (Scelta quanto viene presa la razza)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Trasformazione",
+											"entries": [
+												"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
+												{
+													"type": "list",
+													"items": [{
+															"type": "item",
+															"name": "Oni Blu",
+															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
+														},
+														{
+															"type": "item",
+															"name": "Oni Rosso",
+															"entry": "Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono 1d6 più il modificatore di destrezza. Durante la tua trasformazione aggiungi 1d4 danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
+														},
+														{
+															"type": "item",
+															"name": "Oni Bianco",
+															"entry": "Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi 1d4 danni da fulmine"
+														}
+													],
+													"style": "list-hang-notitle"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Lingue",
+											"entries": [
+												"Puoi parlare, leggere e scrivere Comune e un’altra lingua che tu e il tuo DM decidete sia adatta al tuo personaggio."
+											]
+										}
+									],
+									"hasFluff": true,
+									"hasFluffImages": true,
+									"_versions": [{
+											"name": "Oni; Blu",
+											"source": "Scintille",
+											"_mod": {
+												"entries": {
+													"mode": "replaceArr",
+													"replace": "Trasformazione",
+													"items": {
+														"name": "Trasformazione (Oni Blu)",
+														"type": "entries",
+														"entries": [
+															"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
+															"Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di forza, i danni sono 1d6 più il modificatore di forza. Durante la tua trasformazione aggiungi 1d4 danni da freddo ai tuoi melee weapon attack e unarmed strike in più guadagni un quantitativo di punti ferita temporanei pari a 2 volte la competenza."
+														]
+													}
+												}
+											}
+										},
+										{
+											"name": "Oni; Rosso",
+											"source": "Scintille",
+											"_mod": {
+												"entries": {
+													"mode": "replaceArr",
+													"replace": "Trasformazione",
+													"items": {
+														"name": "Trasformazione (Oni Rosso)",
+														"type": "entries",
+														"entries": [
+															"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
+															"Quando sei nella tua trasformazione hai la possibilità di attaccare con i tuoi artigli. Quando esegui un attacco con i tuoi artigli sei considerato competente con essi e aggiungi il tuo modificatore di destrezza, i danni sono 1d6 più il modificatore di destrezza. Durante la tua trasformazione aggiungi 1d4 danni da tuono ai tuoi ranged weapon attack e unarmed strike in più guadagni 5 piedi di movimento extra."
+														]
+													}
+												}
+											}
+										},
+										{
+											"name": "Oni; Bianco",
+											"source": "Scintille",
+											"_mod": {
+												"entries": {
+													"mode": "replaceArr",
+													"replace": "Trasformazione",
+													"items": {
+														"name": "Trasformazione (Oni Bianco)",
+														"type": "entries",
+														"entries": [
+															"Puoi trasformarti un numero di volte pari alla tua competenza, utilizzando una tua azione bonus, puoi utilizzare il tuo potere per avere dei potenziamenti per la durata di 1 min. Ogni potenziamento varia a seconda della tipologia di oni che sei.",
+															"Mentre sei nella tua trasformazione hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione in più quando effettui un melee o ranged spell attack aggiungi 1d4 danni da fulmine."
+														]
+													}
+												}
+											}
+										}
+									]
+                                }
+                ]
+    }
